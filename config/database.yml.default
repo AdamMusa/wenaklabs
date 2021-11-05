@@ -5,10 +5,10 @@ development:
   adapter: postgresql
   host: fabmanager-postgres
   encoding: unicode
-  database: fabmanager_development
+  database: fablab_development
   pool: 25
-  username: postgres
-  password: postgres
+  username: adam
+  password: Adaforlan
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -17,7 +17,7 @@ test:
   adapter: postgresql
   host: fabmanager-postgres
   encoding: unicode
-  database: fabmanager_test
+  database: fablab_test
   pool: 25
-  username: postgres
-  password: postgres
+  username: adam
+  password: Adaforlan
