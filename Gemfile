@@ -52,8 +52,10 @@ group :test do
   gem 'rubyXL'
 end
 
+group :production, :staging do
+  gem 'rails_12factor'
+end
 
-gem 'rails_12factor'
 gem 'seed_dump'
 
 gem 'pg'
